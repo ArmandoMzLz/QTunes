@@ -19,8 +19,10 @@ qt_add_qml_module(appQTunes
     SOURCES
         mediaplayer.h
         mediaplayer.cpp
-        sqlconnection.h
-        sqlconnection.cpp
+
+
+        SOURCES getfolder.h getfolder.cpp
+        SOURCES sqlconnection.h sqlconnection.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

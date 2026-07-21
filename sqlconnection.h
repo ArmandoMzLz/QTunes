@@ -1,12 +1,10 @@
-#include <iostream>
-
 #ifndef SQLCONNECTION_H
 #define SQLCONNECTION_H
 
-class sqlConnection
+class sqlconnection
 {
 public:
-    sqlConnection();
+    bool createTables();
 };
 
 #endif // SQLCONNECTION_H
